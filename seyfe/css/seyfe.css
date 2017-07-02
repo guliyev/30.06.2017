@@ -1,0 +1,125 @@
+body{
+	margin:0px;
+	/*
+    background-color:gray;
+	background-image:url(../images/bg.jpg);
+	background-repeat: repeat;
+	*/
+	background:darkgray url(../images/x.jpg) repeat;
+	background-size:100px;
+	font-size:12px;
+}
+/* Common classes */
+.fullWidth{
+	width:100%;
+}
+.mainWidth{
+	width:1000px;
+	margin:0px auto;
+}
+.colorGray{
+	background:rgb(14, 131, 209);
+}
+.colorBlack{
+	background:rgb(209, 14, 66);
+}
+.colorWhite{
+	background:white;
+}
+.colorRed{
+	background: red;
+}
+.verticalSpacer{
+	height:10px;
+}
+colorDarkslategrey{
+	background:darkslategrey;
+}
+
+/* Main Classes*/
+/* Top Navigation Section*/
+.topNavSection{
+	
+}
+
+.innerNav{
+	height:30px;
+	color:white;
+
+}
+.innerLeft{
+	width:300px;
+	float:left;
+}
+.innerLeft span{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	font-size:.9em;
+	line-height: 30px;
+
+}
+.innerRight{
+	float:right;
+}
+.innerRight span{
+	font-size:0.9em;
+	line-height: 30px;
+	border-right:1px solid white;
+	padding:9px 11px;
+	font-weight: bold;
+}
+.innerRight span img{
+	width:10px;
+	margin-right:5px;
+}
+
+/* Slider Section*/
+
+.sliderSection{
+	height:200px;
+
+}
+.sliderSection img{
+	width: 666px;
+    margin-right: 150px;
+    margin-left: 164px;
+    border-right-width: 50px;
+    height: 200px
+}
+.buttonsSection{
+	height:20px;
+	text-align: center;
+	color:white;
+	
+}
+.newsSection{
+	height:300px;
+	
+}
+.newsSection floating-box{
+    float: left;
+    width: 300px;
+    height: 290px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+
+.container {
+  display: flex; /* or inline-flex */
+}
+.testimonialSection{
+	
+	height:44px;
+   color:darkslategrey;
+}
+.footerSection{
+	height:200px;
+}
+.bottomNavSection{
+	height:30px;
+}
+.block{
+   display: block;
+   color: red;
+   font-size:40;
+}
