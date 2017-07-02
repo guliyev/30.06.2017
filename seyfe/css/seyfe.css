@@ -20,8 +20,8 @@ body{
 .colorGray{
 	background:rgb(14, 131, 209);
 }
-.colorBlack{
-	background:rgb(209, 14, 66);
+.colorBlue{
+	background:blue;
 }
 .colorWhite{
 	background:white;
@@ -115,11 +115,24 @@ colorDarkslategrey{
 .footerSection{
 	height:200px;
 }
+.innerNav1{
+	height:30px;
+	color:white;
+
+}
+.innerLeft1{
+	width:300px;
+	float:left;
+
+
+}
+.innerRight1{
+	float:right;
+}
+
 .bottomNavSection{
 	height:30px;
 }
 .block{
    display: block;
-   color: red;
-   font-size:40;
-}
+   color: red;}
